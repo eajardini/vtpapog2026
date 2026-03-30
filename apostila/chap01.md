@@ -42,6 +42,8 @@ Escreva o segundo número no retângulo B.
 Some o número do retângulo A com o número do retângulo B.
 Coloque o resultado da soma de A com B no retângulo C.
 
-Retangulo A        Retangulo B             Retangulo C                                     ┌──────┐          ┌──────┐                  ┌──────┐                                   
- │  ?   |          │  ?   |                  │  ?   |                                      └──────┘          └──────┘                  └──────┘
+Retangulo A        Retangulo B             Retangulo C
+ ┌──────┐          ┌──────┐                  ┌──────┐                                   
+ │  ?   |          │  ?   |                  │  ?   |
+ └──────┘          └──────┘                  └──────┘
 ```
