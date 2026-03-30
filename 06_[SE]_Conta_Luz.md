@@ -1,7 +1,15 @@
-Construa um algoritmo que leia o valor de uma conta de luz (CL) e: 
- - caso o valor seja maior que R$ 800,00 apresente 
-      a mensagem: "Você está gastando muito com energia". 
- - Caso contrário exiba a mensagem: "Seu gasto foi normal".
+Construa um algoritmo que leia o valor de uma conta de luz (CL) e:   
+ - caso o valor seja maior que R$ 800,00 apresente   
+      a mensagem: "Você está gastando muito com energia".   
+ - Caso contrário exiba a mensagem: "Seu gasto foi normal".  
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
@@ -16,16 +24,7 @@ Construa um algoritmo que leia o valor de uma conta de luz (CL) e:
 
 
 
-
-
-
-
-
-
-
-
-
-
+```C
 algoritmo "conta Luz"
 
 var
@@ -40,3 +39,4 @@ inicio
       escreval("Seu gasto foi normal!!!")
    fimse
 fimalgoritmo
+```
