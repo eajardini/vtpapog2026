@@ -1,37 +1,27 @@
-//   Construa um algoritmo que solicite qual operação
-//você deseja executar:
-//- A (para adição)
-//- S (para Subtração)
-//- M (para Multiplicação)
-//- D (para Divisão).
-//   Ao escolher a operação o sistema deve solicitar
-//dois números inteiro.
-//   Apos entrar com os números o sistema deve realizar
-//o cálculo desejado e armazenar em uma variável e
-//imprimir a mesma na tela ao final do algoritmo.
+Construa um algoritmo que solicite qual operação matemática você deseja executar.   
+Você deve:  
+- Solicitar o tipo da operação por meio de uma letra, onde:  
+   - A (para adição)  
+   - B (para Subtração)  
+   - M (para Multiplicação)  
+   - D (para Divisão).
+- Solicitar dois números e guardá-los em duas variáveis do tipo real.
+ 
+Após entrar com os números o sistema deve realizar o cálculo desejado e armazenar em uma variável do tipo real e 
+imprimi-la na tela ao final dos cálculos.
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```Go
 algoritmo "alg"
 
 var
@@ -80,3 +70,4 @@ inicio
    escreval("O resultado da operação é: ", resultado)
    
 fimalgoritmo
+```
