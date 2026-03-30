@@ -47,3 +47,48 @@ Retangulo A        Retangulo B             Retangulo C
  │  ?   |          │  ?   |                  │  ?   |
  └──────┘          └──────┘                  └──────┘
 ```
+
+
+## Formas de Representação de Algoritmos  
+
+**Descrição Textual ou Narrativa**
+
+- VANTAGENS:  
+ - O português é bastante conhecido por nós;
+- DESVANTAGENS:  
+ - imprecisão;  
+ - pouca confiabilidade (a imprecisão acarreta a desconfiança);  
+ - extensão (normalmente, escreve-se muito para dizer pouca coisa).
+
+<br/>
+<br/>
+<br/>
+
+**Fluxograma**  
+
+O fluxograma é um tipo de algoritmo que utiliza símbolos gráficos para representar as ações ou instruções a serem seguidas.  
+
+Assim como o pseudocódigo, o fluxograma é utilizado para organizar o raciocínio lógico a ser seguido para a resolução de um problema ou para definir os passos para a execução de uma tarefa. 
+
+Também é utilizado para documentar rotinas de um sistema, mas só é recomendado para os casos pouco extensos.  
+
+
+**Pseudolinguagens**
+
+O pseudocódigo é um tipo de algoritmo que utiliza uma linguagem flexível, intermediária entre a linguagem Narrativa e a linguagem de programação.
+
+É também para documentar rotinas de um sistema.
+
+A palavra 'pseudocódigo' significa 'falso código'. Esse nome se deve à proximidade que existe entre um algoritmo escrito em pseudocódigo e a maneira pela qual um programa é representado em uma linguagem de programação.
+
+
+**Fases**
+Entretanto ao montar um algoritmo, precisamos primeiro dividir o problema apresentado em três fases fundamentais.
+
+```mermaid
+flowchart LR
+    A(Entrada) --> B(Processamento);
+    B --> C(Saída);
+
+```
+dd
