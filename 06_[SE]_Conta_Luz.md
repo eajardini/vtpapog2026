@@ -33,7 +33,7 @@ inicio
    escreva("Informe o valor da conta: ")
    leia(valor_conta)
 
-   se(valor_conta > 80) entao
+   se(valor_conta > 800) entao
       escreva("VVocê está gastando muito com energia!!!")
    senao
       escreval("Seu gasto foi normal!!!")
