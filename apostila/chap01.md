@@ -87,8 +87,52 @@ Entretanto ao montar um algoritmo, precisamos primeiro dividir o problema aprese
 
 ```mermaid
 flowchart LR
-    A(Entrada) --> B(Processamento);
-    B --> C(Saída);
+    A(ENTRADA) --> B(PROCESSAMENTO);
+    B --> C(SAÍDA);
 
 ```
-dd
+
+Onde temos:
+**ENTRADA**: São os dados de entrada do algoritmo;  
+**PROCESSAMENTO**: São os procedimentos utilizados para chegar ao resultado final;  
+**SAÍDA**: São os dados já processados. São as informações.  
+
+
+### Exemplo de Algoritmo
+Imagine o seguinte problema:  
+- Calcular a média final dos alunos da disciplina de algoritmos.
+- Sabendo que a média é calculada por: (Prova1 + Prova2 + Prova3 + Prova4) /4
+
+Para montar o algoritmo proposto, faremos três perguntas:  
+
+* **Quais são os dados de entrada?**  
+  R: Os dados de entrada são Prova1, Prova2, Prova3 e Prova4.
+  
+* **Qual será o processamento a ser utilizado?**  
+  R: O procedimento será somar todos os dados de entrada e dividi-los por 4 (quatro)
+  
+* **Quais serão os dados de saída?**  
+  R: O dado de saída será a média final.  
+
+  
+
+
+
+Inicialmente, temos de solicitar as 4 notas, depois calcular a média e, por mim, mostrar ao usuário a média das notas:
+
+```Go
+Algoritmo
+• Receba a nota da prova1  // Entreda de dados  
+• Receba a nota de prova2  // Entreda de dados  
+• Receba a nota de prova3  // Entreda de dados    
+• Receba a nota da prova4  // Entreda de dados  
+
+• Some todas as notas e divida o resultado por 4  // Processamento dos dados
+
+• Mostre o resultado da divisão  // Saída dos daddos.
+```
+
+
+
+
+```
