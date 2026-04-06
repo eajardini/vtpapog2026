@@ -1,7 +1,7 @@
 <h2>
 Faça um algoritmo que solicite N números inteiros.   <br/> 
 À medida em que o usuário for informando os números, o algoritmo irá determinar o maior e o menor dele.   <br/>
-Ao final o algoritmo deve informa o maior e o menor número digitado.
+Ao final o algoritmo deve informar o maior e o menor número digitado.
 </h2>
 
 <br/>
