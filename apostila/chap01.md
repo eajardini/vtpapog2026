@@ -182,6 +182,41 @@ Um programa deve conter declarações que especificam de que *tipo de dados* sã
 
 ❗ Os tipos de dados indicam o que a variável pode receber.
 
+Alguns tipos de dados:  
+ - **Inteiro**: são para armazenamento de números inteiros.
+ - **Real**: são para o armazenamento de números que possuam casas decimais.
+ - **Literal** ou **caracter**: Específicas para dados que contenham letras e/ou números.
+   - Pode em determinados momentos conter somente dados literais ou somente numéricos.
+   - Se usado somente para armazenamento de números, **não poderá** ser utilizada para operações matemáticas.
+   - A atribuição direta a uma variável do tipo literal deve ser feita usando aspas "valor".
+     - Exemplo: ingrediente <- "farinha"
 
+**Representação da memória de duas vaiáveis do tipo de dados literal e um valor já atribuído**
 
+```mermaid
 
+erDiagram
+    Cor {
+        Literal Verde        
+    }
+
+    Cidade {
+        Literal Votuporanga
+    }
+
+```
+
+**Declaração de Variáveis**
+- As variáveis, antes de serem utilizadas, devem ser declaradas numa seção do próprio algoritmo.  
+- Esta seção é definida com a palavra reservada *var*.
+- Na declaração de uma variável deve ser indicado seu nome e seu tipo de dado.
+- Exemplo:
+
+```Go
+var
+  cor :literal
+  cidadde :caracter
+  idade :inteiro
+  salario :real
+
+```
