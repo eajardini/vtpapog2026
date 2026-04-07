@@ -127,12 +127,59 @@ Algoritmo
 • Receba a nota de prova3  // Entreda de dados    
 • Receba a nota da prova4  // Entreda de dados  
 
-• Some todas as notas e divida o resultado por 4  // Processamento dos dados
+• Some todas as notas  // Processamento de dados
+• divida o resultado da soma por 4  // Processamento dos dados
 
 • Mostre o resultado da divisão  // Saída dos daddos.
 ```
 
+## Atributos e Tipo de Dados
 
+**Variáveis** e **constantes** são os elementos básicos que um programa manipula. 
 
+**Variáveis**
 
+Uma variável é:
+• Um espaço reservado na memória do computador para armazenar um tipo de dado determinado.  
+• Como se fosse uma caixa na memória RAM onde se guarda um dado específico em um formato pré-determinado.  
+* Cada váriável vai reservar um local na memória para guardar um dado.  
+
+```mermaid
+block
+columns 3
+Memória:3
+block:group1:3    
+    A["Variável A"] B["Variável B"] C["Variável C"]
+end
 ```
+
+As Variáveis devem receber nomes para poderem ser referenciadas e modificadas quando necessário.  
+
+**Exemplos de nomes de variáveis**:
+ - *codigo_da_peca*
+ - *aux*
+ - *temp*
+ - *i*
+ - *casa1* 
+
+Os nomes devem ter as seguintes propriedades:  
+ - Não utilizar espaços entre as letras. Em vez de usar *volume de chuva*, o correto pode ser *volumeChuva*, *volume_de_chuva* ou *volume_chuva*.
+   
+ – Não iniciar o nome da variável com números:  
+  - Em vez de *2valor*, use *valor2*.
+
+- Não utilizar **palavras reservadas**, isto é, palavras que são utilizadas nos algoritmos para representar ações específicas.
+  - A particula *se* é usada para representar uma condição lógica.
+  - A palavra *var* é usada para representar a área de declaração de  variáveis.
+    
+- Não utilizar caracteres especiais, como acentos, síbolos (? : / @ # & etc).
+
+**Tipo de dados**
+
+Embora uma variável possa assumir diferentes valores, ela só pode armazenar um valor a cada 
+instante.  
+Um programa deve conter declarações que especificam de que *tipo de dados* são as variáveis que ele utilizará e *as vezes* um valor inicial.  
+
+❗ Os tipos de dados indicam o que a variável pode receber.
+
+
