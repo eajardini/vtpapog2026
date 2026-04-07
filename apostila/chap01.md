@@ -197,11 +197,11 @@ Alguns tipos de dados:
 
 erDiagram
     Cor {
-        Literal Verde        
+        Verde Literal
     }
 
     Cidade {
-        Literal Votuporanga
+        Votuporanga Literal
     }
 
 ```
@@ -218,5 +218,18 @@ var
   cidadde :caracter
   idade :inteiro
   salario :real
-
 ```
+
+**Atribuição de valor à variável**  
+
+A atribuição de valores às variáveis é feita pelo **operador <-**.    
+
+Exemplos:  
+   * Atribuir a idade de 20 à variável *idade*:  
+     * idade <- 20  
+   * Atribuir o nome "João" à variável *nome*:  
+     * nome <- "João"  
+   * Atribuir o resultado da equação x + y à variável resp:  
+     * resp <- x + Y 
+
+Fazer o slide 22
