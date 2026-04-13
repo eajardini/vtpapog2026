@@ -1,6 +1,7 @@
 Faça um algoritmo que fique mostrando a mensagem *Comando enquanto*.  
-A cada frase mostrada, dê a opção para que o usuário escolher se  
-continua ou não **S-Continuar** ou  **N-Não continuar**.
+A cada frase mostrada, dê a opção para que o usuário escolha se continua ou não:  
+**S-Continuar** ou  
+**N-Não continuar**.
 
 
 <br/>
