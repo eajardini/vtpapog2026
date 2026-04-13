@@ -232,4 +232,69 @@ Exemplos:
    * Atribuir o resultado da equação x + y à variável resp:  
      * resp <- x + Y 
 
-Fazer o slide 22
+**Formato Básico do Algoritmo em VisualG**
+
+O formato básico de um algoritmo é o seguinte:
+
+
+```Go
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 13/04/2026
+// Seção de Declarações 
+var
+
+inicio
+// Seção de Comandos
+
+
+fimalgoritmo
+```
+
+Onde:
+
+- Seção: algoritmo
+  - Indica o nome do algoritmo
+  - Seu nome deve vir entre aspas
+
+- Seção: var
+  - Indica as variáveis do algoritmo
+
+- Seção: inicio e fimalgoritmo
+  - Aqui será desenvolvido o algoritmo
+
+- Sempre (salvo raras exceções) deve haver as etapas:
+  - Entrada de dados
+  - Processamento
+  - Saída de informações
+
+**Exemplo**:
+
+```Go
+algoritmo "Calcular"
+var
+   nota1, nota2, nota3, nota4, mediafinal :real
+
+inicio
+
+   // Entrada de dados
+   escreva("Informe a nota 1: ")
+   leia(nota1)
+   escreva("Informe a nota 2: ")
+   leia(nota2)
+   escreva("Informe a nota 3: ")
+   leia(nota3)
+   escreva("Informe a nota 4: ")
+   leia(nota4)
+
+   // Processamento
+   mediafinal <- (nota1+nota2+nota3+nota4) / 4  
+   
+   // Saída
+   escreval("A área é: ", area)
+
+fimalgoritmo
+
+```
+
