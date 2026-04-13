@@ -298,3 +298,19 @@ fimalgoritmo
 
 ```
 
+##Comandos de Saída
+
+**Comandos escreva e escreval**
+
+- Mostra na tela o que estiver entre aspas.  
+
+- Têm as finalidade de guiar o usuário pelo algoritmo e de mostrar os resultados dos processamentos
+
+- Para variáveis do tipo de dados *real*, pode-se deve se especificar o número de casas fracionárias que serão exibidas.
+  - Por exemplo:
+    - Considerando y como uma variável real, o comando escreva(y:6:2) escreve seu valor em 6 espaços colocando 2 casas decimais.
+
+- O **escreval** faz com que o cursor vá para linha de baixo após a frase.
+
+
+Fazer slide 26
