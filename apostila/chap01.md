@@ -359,7 +359,21 @@ pi <- 3.1415
 Atribuindo um valor literal:
 
 ```
-nome <- “João”
+nome <- "João"
 ```
 
-Gazer slide 28
+## Operadores Aritméticos
+
+Os operadores aritméticos são os utilizados para obter resultados numéricos.  
+
+Além da adição, subtração, multiplicação e divisão, podem utilizar também o operador para exponenciação.  
+
+Os símbolos para os operadores aritméticos são:
+
+
+| Operador      | Símbolo |
+| --------      | :--------: |
+| Adição        | **+**    |
+| Subtração     | **-**    |
+| Multiplicação | **\***   |
+| Divisão       | **/**   |
