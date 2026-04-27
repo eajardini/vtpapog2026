@@ -298,7 +298,7 @@ fimalgoritmo
 
 ```
 
-##Comandos de Saída
+## Comandos de Saída
 
 **Comandos escreva e escreval**
 
@@ -313,4 +313,53 @@ fimalgoritmo
 - O **escreval** faz com que o cursor vá para linha de baixo após a frase.
 
 
-Fazer slide 26
+## Comando de Saída
+
+**Comando de Leia**
+
+- Recebe valores digitados pelos usuário, atribuindo-os às variáveis cujos nomes estão entre  parênteses.
+
+**Exemplo**:
+
+```Go
+algoritmo "exemplo 1"
+var
+ x: inteiro
+inicio
+
+ escreva (“informe o valor de x:”)
+ leia (x)
+
+ escreva (" O valor informado foi ", x)
+fimalgoritmo
+
+```
+
+## Operador de atribuição
+
+A atribuição de variáveis é feita pelo operador **<-**  
+
+- Por exemplo:
+
+Se a variável resp armazena o resultado da equação x + y, a linha de comando deve ser a seguinte:  
+
+```Go
+Resp <- x + y
+```
+
+Posso fazer atribuições diretas às variáveis.
+
+**Exemplo**:
+O *pi* sempre tem valor fixo, então no início do algoritmo, eu já atribuo o valor a ele:
+
+```
+pi <- 3.1415
+```
+
+Atribuindo um valor literal:
+
+```
+nome <- “João”
+```
+
+Gazer slide 28
