@@ -20,4 +20,32 @@ Os operadores relacionais são:
 | Maior ou igual a | >=        |
 | Menor ou igual a | <=        |
 
+### Operadores Relacionais  
 
+Exemplo:  
+- Tendo duas variáveis A = 5 e B = 3
+- Os resultados das expressões das expressões relacionais seriam:
+
+| Expressão  | Resultado   |
+|:----------:|:------:   |
+| A = B      | Falso     |
+| A <> B     | Verdadeiro |
+| A > B      | Verdadeiro |
+| A < B      | Falso      |
+| A >= B     | Verdadeiro |
+| A <= B     | Falso      |
+
+### Operadores Lógicos
+
+- Os operadores lógicos servem para combinar resultados de expressões, retornando se o resultado final é verdadeiro ou falso.
+- Os operadores lógicos são:
+
+| Operadores Lógicos |
+|:------:|
+| E      |
+| OU     |
+| NÃO    |
+
+O tipo de dado que recebe valores lógico é o LOGICO.
+
+Fazer slide 6
