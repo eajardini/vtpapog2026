@@ -71,11 +71,12 @@ A função deverá retornar 2 valores para duas variáveis simultaneamente
 
 
 
-
+```python
 def soma_mult(a,b,c):  
-    return a+b+c, a * b * c
+  return a+b+c, a * b * c  
 
-soma, mult = soma_mult(10,10,10)
+soma, mult = soma_mult(10,10,10)  
 
-print(soma)
-print(mult)
+print(soma)  
+print(mult)  
+```
